@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-%osgu2npoa#=y=h@t9tpx=k-!pbr_uaxzl6up_3c&9l6eh4xf^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -55,7 +55,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",
+    "https://teratodoapp.netlify.app",
 ]
 
 ROOT_URLCONF = 'todoapp.urls'
